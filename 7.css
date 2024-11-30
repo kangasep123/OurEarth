@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo Black:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+#nav1 a:hover,
+a:hover span {
+  color: #fff;
+  background: #94b49f;
+}
+
+#bla {
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+#bla:hover {
+  text-decoration: underline;
+  color: rgb(170, 170, 170);
+}
+
+#bud {
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+#bud:hover {
+  text-decoration: underline;
+  color: rgb(170, 170, 170);
+}
+
+#nav5 {
+  color: #94b49f;
+  border: solid 2px #94b49f;
+  border-radius: 10px;
+  font-family: 'Inter';
+  padding: 9px 20px;
+  width: 100px;
+  height: 45px;
+}
+#nav5:hover {
+  color: #fff;
+  background: #94b49f;
+}
+
+.text1 {
+  font-size: 54px;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 6%;
+  font-family: 'Inter';
+}
+
+#laf {
+  display: none;
+  margin-top: 10px;
+}
+
+.tebal {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 992px) {
+  .text1 {
+    font-size: 48px;
+  }
+  #laf {
+    display: block;
+  }
+  .fal {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 892px) {
+  .text1 {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 652px) {
+  .text1 {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .text1 {
+    font-size: 36px;
+    margin-top: 30px;
+  }
+  .tebal {
+    font-size: 14.4px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .text1 {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .text1 {
+    font-size: 28px;
+  }
+  .tebal {
+    font-size: 18.4px;
+  }
+}
+
+@media only screen and (max-width: 391px) {
+  .text1 {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 644px) {
+  .textndimg2 {
+    display: none;
+  }
+  .text2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 383px) {
+  .img5 {
+    width: 30px;
+    height: 42px;
+  }
+  .img6 {
+    width: 30px;
+    height: 50px;
+  }
+  .img7 {
+    width: 50px;
+    height: 50px;
+  }
+  .img8 {
+    width: 50px;
+    height: 46px;
+  }
+}
+
+.floating-img {
+  animation-name: floating-img;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating-img {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0%);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-2.5%);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0% rgba(0, 0, 0, 0.6);
+    transform: translatey(0%);
+  }
+}
+
+@media only screen and (max-width: 991.5px) {
+  #nav1 {
+    margin-bottom: 5px;
+    margin-left: -20px;
+  }
+  #nav5 {
+    padding: 10px 193px 0px 170px;
+    margin-top: 130px;
+
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #nav1 {
+    margin-bottom: 5px;
+    margin-left: -20px;
+  }
+  #nav5 {
+    padding: 10px 183px 0px 160px;
+    margin-top: 130px;
+
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 360px) {
+  #nav1 {
+    margin-bottom: 5px;
+    margin-left: -20px;
+  }
+  #nav5 {
+    padding: 10px 180px 0px 143px;
+    margin-top: 130px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 340px) {
+  #nav1 {
+    margin-bottom: 5px;
+    margin-left: -20px;
+  }
+  #nav5 {
+    padding: 10px 165px 0px 138px;
+    margin-top: 130px;
+
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #nav1 {
+    margin-bottom: 5px;
+    margin-left: -20px;
+  }
+  #nav5 {
+    padding: 10px 155px 0px 128px;
+    margin-top: 130px;
+
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #nav1 {
+    margin-bottom: 5px;
+    margin-left: -20px;
+  }
+  #nav5 {
+    padding: 10px 145px 0px 118px;
+    margin-top: 130px;
+
+    text-align: center;
+  }
+}
